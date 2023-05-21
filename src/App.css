@@ -1,5 +1,26 @@
+:root {
+
+  --border: red solid 1px;
+
+  --bg-color: hsl(0, 0%, 05%);
+
+  --primary-color: hsl(0, 0%, 14%);
+
+  --secundary-color: hsl(0, 0%, 20%);
+
+  --white: hsl(0, 0%, 94%);
+
+  --shadow: rgba(0, 0, 0, 0.2) 0 25px 20px -10px;
+}
+
 * {
-  background-color: #343434;
-  color: #f0f0f0;
+  color: var(--white);
+  font-family: Varela Round , sans-serif;
+  margin: 0;
   text-align: center;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--bg-color);
 }

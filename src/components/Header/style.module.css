@@ -1,0 +1,27 @@
+.header {
+  align-items: center;
+  background-color: var(--primary-color);
+  box-shadow: var(--shadow);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  width: auto;
+}
+
+.logo {
+  border-radius: 50%;
+  height: auto;
+  margin-left: auto;
+  width: 50px;
+}
+
+.title {
+  font-size: 1.8rem;
+  left: 50%;
+  letter-spacing: 0.05rem;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%);
+}
+

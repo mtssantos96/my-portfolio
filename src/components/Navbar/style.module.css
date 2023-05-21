@@ -1,0 +1,26 @@
+.navbar {
+  background-color: var(--secundary-color);
+  box-shadow: var(--shadow);
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navContainer {
+  display: flex;
+  font-weight: 600;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.navContainer li {
+  list-style-type: none;
+}
+
+.navContainer li:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}

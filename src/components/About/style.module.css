@@ -1,0 +1,14 @@
+.about {
+  align-items: center;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+
+.aboutContent {
+  margin-bottom: 20px;
+  max-width: 600px;
+  text-align: center;
+}

@@ -1,0 +1,39 @@
+.contact {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.contactTitle {
+  font-size: 1.5rem;
+  letter-spacing: 0.05rem;
+}
+
+.contactList {
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.listLink {
+  border: 1px solid var(--secundary-color);
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.listLink:hover {
+  background-color: var(--secundary-color);
+  color: var(---white);
+  transform: scale(1.1);
+  transition: ease-in-out 150ms;
+}
+
+.listItem {
+  display: flex;
+  font-size: 1.5rem;
+  gap: 0.5rem;
+}
