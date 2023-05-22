@@ -82,9 +82,9 @@ export default function ProjectsSection() {
             <b>componentes de classe</b>
             {' '}
             em React,
-            criar múltiploscomponentes a partir de uma array, fazer uso de
+            criar múltiplos componentes a partir de uma array, fazer uso de
             {' '}
-            <b>props</b>
+            <b>props </b>
             e fazer uso de
             {' '}
             <b>PropTypes</b>

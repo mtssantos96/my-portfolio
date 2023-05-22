@@ -14,15 +14,15 @@
 .contactList {
   align-items: center;
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   justify-content: center;
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 .listLink {
   border: 1px solid var(--secundary-color);
   border-radius: 1rem;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .listLink:hover {

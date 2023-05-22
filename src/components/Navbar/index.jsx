@@ -5,8 +5,8 @@ import styles from './style.module.css';
 export default function NavigationBar() {
   return (
     <nav className={ styles.navbar }>
-      <ul className={ styles.navContainer }>
-        <li>
+      <div className={ styles.navContainer }>
+        <p>
           <Link
             to="home"
             smooth
@@ -15,8 +15,8 @@ export default function NavigationBar() {
           >
             Home
           </Link>
-        </li>
-        <li>
+        </p>
+        <p>
           <Link
             to="projects"
             smooth
@@ -25,8 +25,8 @@ export default function NavigationBar() {
           >
             Projetos
           </Link>
-        </li>
-        <li>
+        </p>
+        <p>
           <Link
             to="about"
             smooth
@@ -35,8 +35,8 @@ export default function NavigationBar() {
           >
             Sobre
           </Link>
-        </li>
-        <li>
+        </p>
+        <p>
           <Link
             to="contact"
             smooth
@@ -45,8 +45,8 @@ export default function NavigationBar() {
           >
             Contatos
           </Link>
-        </li>
-      </ul>
+        </p>
+      </div>
     </nav>
   );
 }

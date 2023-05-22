@@ -10,17 +10,19 @@
 }
 
 .navContainer {
+  align-items: center;
   display: flex;
   font-weight: 600;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 80%;
 }
 
-.navContainer li {
+.navContainer p {
+  list-style: none;
   list-style-type: none;
 }
 
-.navContainer li:hover {
+.navContainer p:hover {
   cursor: pointer;
-  transform: scale(1.2);
+  transform: scale(1.4);
 }

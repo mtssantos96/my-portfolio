@@ -10,7 +10,9 @@
 
   --white: hsl(0, 0%, 94%);
 
-  --shadow: rgba(0, 0, 0, 0.2) 0 25px 20px -10px;
+  --shadow: #0003 0 0.5rem 0.5rem 0.2rem;
+
+  --3d-shadow: #0003 0 0.5rem 0.5rem 0.2rem , #fff1 0 -0.2rem 1rem;
 }
 
 * {
