@@ -15,6 +15,7 @@
 }
 
 .projectsContainer > p {
+  text-align: center;
   width: 80%;
 }
 
@@ -35,6 +36,13 @@
   max-width: 80%;
   min-width: 70%;
   padding: 2rem;
+}
+
+@media screen and ( max-width : 400px ) {
+
+  .projectCard {
+    width: 220px;
+  }
 }
 
 .projectCard img {

@@ -49,3 +49,7 @@ strong:hover {
   font-size: 1.2rem;
   transition: ease-in-out 150ms;
 }
+
+p {
+  text-align: justify;
+}
