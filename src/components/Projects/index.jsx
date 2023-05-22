@@ -8,11 +8,15 @@ import solarSystem from '../../assets/solarSystem.png';
 export default function ProjectsSection() {
   return (
     <section id="projects" className={ styles.projectsContainer }>
-      <h1>Meus Projetos</h1>
+      <h2>Meus Projetos</h2>
       <br />
       <p>
         Os projetos abaixo foram desenvolvidos como forma de
-        aprendizado no curso de Desenvolvimento Web da Trybe
+        aprendizado no curso de Desenvolvimento Web da
+        {' '}
+        <a href="https://www.betrybe.com/" target="_blank" rel="noreferrer">
+          <strong>Trybe</strong>
+        </a>
       </p>
       <div className={ styles.projects }>
         <div className={ styles.projectCard }>

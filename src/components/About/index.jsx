@@ -11,7 +11,9 @@ export default function About() {
           Me chamo Matheus, acabei de me formar em Desenvolvimento Web pela escola
           de tecnologia
           {' '}
-          <b>Trybe</b>
+          <a href="https://www.betrybe.com/" target="_blank" rel="noreferrer">
+            <strong>Trybe</strong>
+          </a>
           . Tenho como vocação o Front-End, sou uma pessoa muito ligada a arte, a
           criação, uma pessoa muito curiosa, que ama descobrir o porquê das coisas, como
           tudo funciona.

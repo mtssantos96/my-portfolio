@@ -5,7 +5,7 @@ import styles from './style.module.css';
 export default function Contact() {
   return (
     <section id="contact" className={ styles.contact }>
-      <h3 className={ styles.contactTitle }>Entre em contato:</h3>
+      <h2 className={ styles.contactTitle }>Entre em contato:</h2>
       <div className={ styles.contactList }>
         <a
           href="https://www.linkedin.com/in/matheussantpsdev/"

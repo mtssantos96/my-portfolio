@@ -10,9 +10,15 @@
 
   --white: hsl(0, 0%, 94%);
 
+  --cyan: hsl(180, 100%, 70%);
+
+  --secondary-cyan: hsl(191, 100%, 40%);
+
   --shadow: #0003 0 0.5rem 0.5rem 0.2rem;
 
   --3d-shadow: #0003 0 0.5rem 0.5rem 0.2rem , #fff1 0 -0.2rem 1rem;
+
+  --trybe-color: #1eb720;
 }
 
 * {
@@ -25,4 +31,21 @@
 
 body {
   background-color: var(--bg-color);
+}
+
+h2 {
+  color: var(--cyan);
+}
+
+b {
+  color: var(--secondary-cyan);
+}
+
+strong {
+  color: var(--trybe-color);
+}
+
+strong:hover {
+  font-size: 1.2rem;
+  transition: ease-in-out 150ms;
 }

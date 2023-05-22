@@ -22,7 +22,13 @@
   list-style-type: none;
 }
 
+.navLink:hover {
+  color: var(--cyan);
+  transition: ease-in-out 150ms;
+}
+
 .navContainer p:hover {
   cursor: pointer;
-  transform: scale(1.4);
+  transform: scale(1.2);
+  transition: ease-in-out 150ms;
 }

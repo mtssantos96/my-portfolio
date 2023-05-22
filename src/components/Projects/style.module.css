@@ -45,6 +45,7 @@
 }
 
 .projectCard h2 {
+  color: var(--cyan);
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
@@ -56,13 +57,13 @@
 .projectLinks {
   align-items: center;
   display: flex;
-  font-size: 1rem;
+  font-size: 1.4rem;
   gap: 1rem;
   justify-content: center;
 }
 
 .projectLinks svg {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .projectLinks a {
@@ -78,7 +79,7 @@
 
 .projectLinks a:hover {
   background-color: var(--secundary-color);
-  color: var(---white);
+  color: var(--cyan);
   transform: scale(1.1);
   transition: ease-in-out 150ms;
 }

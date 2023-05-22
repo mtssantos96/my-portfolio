@@ -27,10 +27,25 @@
 
 .listLink:hover {
   background-color: var(--secundary-color);
-  color: var(---white);
   transform: scale(1.1);
   transition: ease-in-out 150ms;
 }
+
+.listLink:hover .listItem p {
+  color: cyan;
+}
+
+.listLink:hover .listItem svg {
+  fill: cyan;
+}
+
+/* .listItem p {
+  color: var(--cyan);
+}
+
+.listItem svg {
+  fill: var(--cyan);
+} */
 
 .listItem {
   display: flex;
