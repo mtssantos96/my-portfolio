@@ -11,7 +11,7 @@ export default function ProjectsSection() {
       <h1>Meus Projetos</h1>
       <br />
       <p>
-        Os projetos abaixo foram desenvolvido como forma de
+        Os projetos abaixo foram desenvolvidos como forma de
         aprendizado no curso de Desenvolvimento Web da Trybe
       </p>
       <div className={ styles.projects }>
