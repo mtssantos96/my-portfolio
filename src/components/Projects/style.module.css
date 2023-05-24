@@ -7,13 +7,6 @@
   margin-top: 2rem;
 }
 
-@media screen and ( min-width : 768px ) {
-
-  .projectsContainer p {
-    font-size: 1.4rem;
-  }
-}
-
 .projectsContainer > p {
   text-align: center;
   width: 80%;
@@ -36,13 +29,6 @@
   max-width: 80%;
   min-width: 70%;
   padding: 2rem;
-}
-
-@media screen and ( max-width : 400px ) {
-
-  .projectCard {
-    width: 220px;
-  }
 }
 
 .projectCard img {
@@ -90,4 +76,27 @@
   color: var(--cyan);
   transform: scale(1.1);
   transition: ease-in-out 150ms;
+}
+
+@media screen and ( min-width : 768px ) {
+
+  .projectsContainer p {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and ( max-width : 400px ) {
+
+  .projectCard {
+    width: 220px;
+  }
+
+  .projectLinks svg {
+    font-size: 1.5rem;
+  }
+
+  .projectLinks {
+    font-size: 1rem;
+  }
+
 }

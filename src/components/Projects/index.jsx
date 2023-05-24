@@ -2,8 +2,8 @@
 import React from 'react';
 import { IoIosCode, IoIosGlobe } from 'react-icons/io';
 import styles from './style.module.css';
-import shoppingCart from '../../assets/shoppingCart.png';
-import solarSystem from '../../assets/solarSystem.png';
+import shoppingCart from '../../assets/shoppingCart.jpg';
+import solarSystem from '../../assets/solarSystem.jpg';
 
 export default function ProjectsSection() {
   return (
