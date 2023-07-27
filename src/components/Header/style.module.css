@@ -1,26 +1,60 @@
-.header {
+.container {
   align-items: center;
-  background-color: var(--primary-color);
   display: flex;
-  justify-content: space-between;
-  padding: 0.5rem 1rem;
-  width: auto;
+  gap: 40rem;
+  height: 800px;
+  justify-content: center;
+  padding: 4rem;
 }
 
-.logo {
+.textContainer {
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+}
+
+.textContainer h1 {
+  font-size: 3rem;
+  letter-spacing: 0.05rem;
+  text-align: center;
+}
+
+.textContainer p {
+  margin-top: 2rem;
+}
+
+.imgContainer {
+  align-items: end;
+  display: flex;
+  justify-content: end;
+}
+
+.logoWrapper {
+  align-items: center;
+  background: var(--primary-color);
   border-radius: 50%;
-  height: auto;
-  margin-left: auto;
+  display: flex;
+  height: 4rem;
+  justify-content: center;
+  margin-bottom: -2rem;
+  margin-right: -2rem;
+  overflow: hidden;
+  padding: 2rem;
+  position: absolute;
   width: 4rem;
 }
 
-.title {
-  font-size: 1.8rem;
-  left: 50%;
-  letter-spacing: 0.05rem;
-  margin: 0;
-  position: absolute;
-  text-align: center;
-  transform: translateX(-50%);
+.logo {
+  height: auto;
+  width: 3.5rem;
+}
+
+.perfil {
+  border-radius: 50%;
+  height: auto;
+  margin-left: auto;
+  width: 20rem;
 }
 

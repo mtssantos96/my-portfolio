@@ -1,10 +1,23 @@
 .projectsContainer {
   align-items: center;
-  background-color: var(--s-color);
+  background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
+  gap: 2rem;
   justify-content: center;
-  margin-top: 2rem;
+  padding-top: 8rem;
+  width: 100%;
+}
+
+.projectsContainer h2 {
+  margin-bottom: 2rem;
+}
+
+@media screen and ( min-width : 768px ) {
+
+  .projectsContainer p {
+    font-size: 1.4rem;
+  }
 }
 
 .projectsContainer > p {
@@ -13,39 +26,61 @@
 }
 
 .projects {
-  align-items: center;
+  align-items: stretch;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 2rem;
   justify-content: center;
   padding: 2rem;
+  width: 80%;
 }
 
 .projectCard {
-  background-color: var(--primary-color);
-  border: 1px solid var(--secundary-color);
   border-radius: 1rem;
-  box-shadow: var(--shadow);
-  max-width: 80%;
-  min-width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   padding: 2rem;
+  width: 500px;
+}
+
+@media screen and ( max-width : 400px ) {
+
+  .projectCard {
+    width: 220px;
+  }
 }
 
 .projectCard img {
   border-radius: 0.5rem;
   height: auto;
-  margin-bottom: 10px;
   width: 100%;
 }
 
 .projectCard h2 {
   color: var(--cyan);
   font-size: 1.5rem;
-  margin-bottom: 10px;
 }
 
-.projectCard p {
-  margin-bottom: 10px;
+.projectCard h3 {
+  color: var(--cyan);
+  font-size: 1.2rem;
+}
+
+.projectCard .description {
+  font-size: 1.2rem;
+}
+
+.tech {
+  display: flex;
+  gap: 20px;
+  height: 40px;
+  justify-content: center;
+}
+
+.tech .techIcon {
+  height: 40px;
+  width: 40px;
 }
 
 .projectLinks {
@@ -76,27 +111,4 @@
   color: var(--cyan);
   transform: scale(1.1);
   transition: ease-in-out 150ms;
-}
-
-@media screen and ( min-width : 768px ) {
-
-  .projectsContainer p {
-    font-size: 1.4rem;
-  }
-}
-
-@media screen and ( max-width : 400px ) {
-
-  .projectCard {
-    width: 220px;
-  }
-
-  .projectLinks svg {
-    font-size: 1.5rem;
-  }
-
-  .projectLinks {
-    font-size: 1rem;
-  }
-
 }
