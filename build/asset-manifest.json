@@ -1,18 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.b153893d.css",
-    "main.js": "/static/js/main.761b0e6c.js",
+    "main.css": "/static/css/main.6df32215.css",
+    "main.js": "/static/js/main.2aeb0806.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/solarSystem.jpg": "/static/media/solarSystem.956a184c3cfc8c465a43.jpg",
-    "static/media/shoppingCart.jpg": "/static/media/shoppingCart.67135c82a42bcc26a00b.jpg",
-    "static/media/logo.png": "/static/media/logo.f790f1c555c2445b913a.png",
+    "static/media/solarSystem.gif": "/static/media/solarSystem.c03e34f5be9d22a1caf3.gif",
+    "static/media/trybetunes.gif": "/static/media/trybetunes.8ca4b24bbd5dc5e929cc.gif",
+    "static/media/shoppingCart.gif": "/static/media/shoppingCart.42902d997e80f603c0ef.gif",
+    "static/media/perfil.jpg": "/static/media/perfil.e826de065fe3b1f3d988.jpg",
+    "static/media/react-logo.svg": "/static/media/react-logo.f0fc5724ee3f612c5668747f5eddabe1.svg",
+    "static/media/jest-logo.svg": "/static/media/jest-logo.a9fa6725988cc96203f4a9eb5caa81c2.svg",
+    "static/media/javascript-logo.svg": "/static/media/javascript-logo.932bd81d849f6dcc8a5a3eed2336ce38.svg",
+    "static/media/css-3-logo.svg": "/static/media/css-3-logo.8b8b38a390321c653033393cff7c6210.svg",
     "index.html": "/index.html",
-    "main.b153893d.css.map": "/static/css/main.b153893d.css.map",
-    "main.761b0e6c.js.map": "/static/js/main.761b0e6c.js.map",
+    "static/media/html-5-logo.svg": "/static/media/html-5-logo.ff1578fbb22000614a81a63cfcfa60cc.svg",
+    "main.6df32215.css.map": "/static/css/main.6df32215.css.map",
+    "main.2aeb0806.js.map": "/static/js/main.2aeb0806.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b153893d.css",
-    "static/js/main.761b0e6c.js"
+    "static/css/main.6df32215.css",
+    "static/js/main.2aeb0806.js"
   ]
 }
