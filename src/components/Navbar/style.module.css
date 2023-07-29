@@ -6,21 +6,22 @@
   padding: 1rem;
   position: sticky;
   top: 0;
+  user-select: none;
   z-index: 100;
 }
 
 .navContainer {
   align-items: center;
   display: flex;
+  flex-wrap: wrap;
   font-weight: 600;
-  gap: 4rem;
+  gap: 1rem 4rem;
   justify-content: center;
   width: 80%;
 }
 
-.navContainer p {
-  list-style: none;
-  list-style-type: none;
+.navContainer a {
+  padding: 0.4rem 0.8rem;
 }
 
 .navLink:hover {
@@ -28,7 +29,7 @@
   transition: ease-in-out 150ms;
 }
 
-.navContainer p:hover {
+.navContainer a:hover {
   cursor: pointer;
   transform: scale(1.2);
   transition: ease-in-out 150ms;

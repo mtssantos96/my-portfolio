@@ -1,9 +1,9 @@
 .container {
   align-items: center;
   display: flex;
-  gap: 40rem;
+  flex-wrap: wrap;
   height: 800px;
-  justify-content: center;
+  justify-content: space-around;
   padding: 4rem;
 }
 
@@ -58,3 +58,47 @@
   width: 20rem;
 }
 
+.contactList {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.listLink {
+  border-radius: 1rem;
+  display: flex;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.listLink:hover {
+  background-color: var(--secundary-color);
+  transform: scale(1.1);
+  transition: ease-in-out 150ms;
+}
+
+.listLink:hover svg {
+  fill: cyan;
+}
+
+@media screen and ( max-width : 576px ) {
+
+  .perfil {
+    width: 14rem;
+  }
+
+  .logoWrapper {
+    height: 1rem;
+    margin-bottom: -1rem;
+    margin-right: -1rem;
+    width: 1rem;
+  }
+
+  .logo {
+    height: auto;
+    width: 2.4rem;
+  }
+}
