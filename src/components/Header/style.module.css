@@ -1,104 +1,16 @@
 .container {
-  align-items: center;
+  background-color: var(--secundary-color);
+  box-shadow: var(--shadow);
   display: flex;
-  flex-wrap: wrap;
-  height: 800px;
-  justify-content: space-around;
-  padding: 4rem;
-}
-
-.textContainer {
-  align-items: start;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 400px;
-}
-
-.textContainer h1 {
-  font-size: 3rem;
-  letter-spacing: 0.05rem;
-  text-align: center;
-}
-
-.textContainer p {
-  margin-top: 2rem;
-}
-
-.imgContainer {
-  align-items: end;
-  display: flex;
-  justify-content: end;
-}
-
-.logoWrapper {
-  align-items: center;
-  background: var(--primary-color);
-  border-radius: 50%;
-  display: flex;
-  height: 4rem;
-  justify-content: center;
-  margin-bottom: -2rem;
-  margin-right: -2rem;
-  overflow: hidden;
-  padding: 2rem;
-  position: absolute;
-  width: 4rem;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  user-select: none;
+  z-index: 100;
 }
 
 .logo {
   height: auto;
-  width: 3.5rem;
-}
-
-.perfil {
-  border-radius: 50%;
-  height: auto;
-  margin-left: auto;
-  width: 20rem;
-}
-
-.contactList {
-  align-items: center;
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  margin-top: 1rem;
-  width: 100%;
-}
-
-.listLink {
-  border-radius: 1rem;
-  display: flex;
-  font-size: 1.5rem;
-  padding: 1rem;
-}
-
-.listLink:hover {
-  background-color: var(--secundary-color);
-  transform: scale(1.1);
-  transition: ease-in-out 150ms;
-}
-
-.listLink:hover svg {
-  fill: cyan;
-}
-
-@media screen and ( max-width : 576px ) {
-
-  .perfil {
-    width: 14rem;
-  }
-
-  .logoWrapper {
-    height: 1rem;
-    margin-bottom: -1rem;
-    margin-right: -1rem;
-    width: 1rem;
-  }
-
-  .logo {
-    height: auto;
-    width: 2.4rem;
-  }
+  width: 2rem;
 }

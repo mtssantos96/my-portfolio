@@ -10,24 +10,37 @@
 
   --white: hsl(0, 0%, 94%);
 
+  --blue-color: hsl(231, 81%, 66%);
+
   --cyan: hsl(180, 100%, 70%);
 
   --secondary-cyan: hsl(191, 100%, 40%);
 
   --shadow: #0003 0 0.5rem 0.5rem 0.2rem;
 
-  --3d-shadow: #0003 0 0.5rem 0.5rem 0.2rem , #fff1 0 -0.2rem 1rem;
+  --link-color: #1eb720;
 
-  --trybe-color: #1eb720;
+  --font: 'Varela Round' , sans-serif;
 }
 
 * {
   color: var(--white);
-  font-family: Varela Round , sans-serif;
+  font-family: var(--font);
   margin: 0;
   padding: 0;
-  text-align: center;
   text-decoration: none;
+}
+
+label {
+  font-family: var(--font);
+}
+
+input {
+  font-family: var(--font);
+}
+
+button {
+  font-family: var(--font);
 }
 
 body {
@@ -35,25 +48,21 @@ body {
 }
 
 h2 {
-  color: var(--cyan);
+  color: var(--secondary-cyan);
   font-size: 2rem;
 }
 
 b {
-  color: var(--secondary-cyan);
+  color: var(--cyan);
 }
 
 strong {
-  color: var(--trybe-color);
+  color: var(--link-color);
 }
 
 strong:hover {
   filter: brightness(1.4);
   transition: ease-in-out 600ms;
-}
-
-p {
-  text-align: justify;
 }
 
 .App {

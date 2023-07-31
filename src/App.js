@@ -1,22 +1,23 @@
-import './App.css';
-import Header from './components/Header';
-import Navbar from './components/Navbar';
-import Projects from './components/Projects';
-import About from './components/About';
-import Footer from './components/Footer';
-import Contact from './components/Contact';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <Navbar />
-      <Header />
-      <Projects />
-      <About />
-      <Contact />
-      <Footer />
-    </div>
-  );
+import './App.css';
+import Home from './pages/Home';
+import Projects from './pages/Projects';
+import About from './pages/About';
+import Contact from './pages/Contact';
+
+class App extends React.Component {
+  render() {
+    return (
+      <Routes>
+        <Route path="/" element={ <Home /> } />
+        <Route path="/projects" element={ <Projects /> } />
+        <Route path="/about" element={ <About /> } />
+        <Route path="/contact" element={ <Contact /> } />
+      </Routes>
+    );
+  }
 }
 
 export default App;

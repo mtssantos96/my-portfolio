@@ -1,0 +1,59 @@
+.container {
+  align-items: center;
+  background-color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem 0;
+  width: 100%;
+}
+
+@keyframes buttonSize {
+
+  0%, 100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.btnBackToTop {
+  align-items: center;
+  background-color: var(--secondary-cyan);
+  border: none;
+  border-radius: 50%;
+  bottom: 30px;
+  cursor: pointer;
+  display: flex;
+  font-size: 4rem;
+  justify-content: center;
+  padding: 0.2rem;
+  position: fixed;
+  right: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btnBackToTop svg {
+  fill: var(--bg-color);
+}
+
+.btnBackToTop:disabled {
+  cursor: default;
+  filter: brightness(0.6);
+  font-size: 3.8rem;
+  justify-content: center;
+  padding: 0;
+}
+
+.btnBackToTop:hover:not( :disabled ) {
+  animation: buttonSize 1.5s infinite;
+  background-color: var(--cyan);
+  box-shadow: var(--shadow);
+}
+
+.btnBackToTop:hover svg {
+  fill: var(--bg-color);
+}
+

@@ -1,40 +1,38 @@
 import React from 'react';
-import { Link } from 'react-scroll';
+import { Link, useLocation } from 'react-router-dom';
 import styles from './style.module.css';
 
 export default function NavigationBar() {
+  const location = useLocation();
+
   return (
     <nav className={ styles.navbar }>
       <div className={ styles.navContainer }>
         <Link
-          to="home"
-          smooth
-          duration={ 500 }
-          className={ styles.navLink }
+          to="/"
+          className={ `${styles.navLink} ${location
+            .pathname === '/' ? styles.currentPage : ''}` }
         >
           Home
         </Link>
         <Link
-          to="projects"
-          smooth
-          duration={ 500 }
-          className={ styles.navLink }
+          to="/projects"
+          className={ `${styles.navLink} ${location
+            .pathname === '/projects' ? styles.currentPage : ''}` }
         >
           Projetos
         </Link>
-        <Link
-          to="about"
-          smooth
-          duration={ 500 }
-          className={ styles.navLink }
+        {/* <Link
+          to="none"
+          className={ `${styles.navLink} ${location
+            .pathname === '/about' ? styles.currentPage : ''}` }
         >
           Sobre
-        </Link>
+        </Link> */}
         <Link
-          to="contact"
-          smooth
-          duration={ 500 }
-          className={ styles.navLink }
+          to="/contact"
+          className={ `${styles.navLink} ${location
+            .pathname === '/contact' ? styles.currentPage : ''}` }
         >
           Contatos
         </Link>

@@ -1,18 +1,17 @@
 .projectsContainer {
   align-items: center;
-  background-color: var(--secundary-color);
   display: flex;
   flex-direction: column;
   gap: 4rem;
   justify-content: center;
-  padding: 5rem 0;
+  padding: 3rem 0;
   width: 100%;
 }
 
 @media screen and ( min-width : 768px ) {
 
   .projectsContainer p {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -21,9 +20,19 @@
   width: 80%;
 }
 
+@keyframes buttonSize {
+
+  0%, 100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+}
+
 .projects {
   align-items: stretch;
-  background-color: var(--primary-color);
   border-radius: 2rem;
   display: flex;
   flex-wrap: wrap;
@@ -34,9 +43,13 @@
 }
 
 .projectCard {
+  background-color: var(--primary-color);
+  border-radius: 2rem;
+  box-shadow: var(--shadow);
   display: flex;
   flex-direction: column;
   gap: 20px;
+  overflow: hidden;
   padding: 2rem;
   width: 500px;
 }
@@ -64,11 +77,24 @@
 .projectCard h2 {
   color: var(--cyan);
   font-size: 1.5rem;
+  text-align: center;
 }
 
 .projectCard h3 {
-  color: var(--cyan);
+  color: var(--secondary-cyan);
   font-size: 1.2rem;
+  text-align: center;
+}
+
+.projectCard h4 {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  text-align: start;
+}
+
+.projectCard p {
+  margin-top: 1rem;
+  text-align: start;
 }
 
 .projectCard .description {
@@ -77,14 +103,38 @@
 
 .tech {
   display: flex;
-  gap: 20px;
-  height: 40px;
+  gap: 2rem;
   justify-content: center;
+  transition: all 0.4s ease-in-out;
 }
 
 .tech .techIcon {
   height: 40px;
   width: 40px;
+}
+
+.tech span {
+  cursor: pointer;
+  height: 40px;
+  overflow: hidden;
+  transition: all 0.6s ease-in-out;
+  width: 40px;
+}
+
+.tech span:hover, .tech span:active {
+  align-items: center;
+  background-color: var(--secundary-color);
+  border-radius: 0.8rem;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  height: 8rem;
+  justify-content: center;
+  width: 6rem;
+}
+
+.tech > span > p {
+  text-align: center;
 }
 
 .projectLinks {
@@ -96,15 +146,10 @@
   justify-content: center;
 }
 
-.projectLinks svg {
-  font-size: 1.4rem;
-}
-
 .link {
   align-items: center;
   border: 0.125em solid var(--primary-color);
   border-radius: 0.5em;
-  color: var(--white);
   display: flex;
   gap: 1rem;
   justify-content: center;
