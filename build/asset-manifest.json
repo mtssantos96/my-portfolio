@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.7a32ba14.css",
-    "main.js": "/static/js/main.2e043e8c.js",
+    "main.js": "/static/js/main.1d1fe2f5.js",
     "static/media/solarSystem.gif": "/static/media/solarSystem.c03e34f5be9d22a1caf3.gif",
-    "static/media/trybetunes.gif": "/static/media/trybetunes.8ca4b24bbd5dc5e929cc.gif",
+    "static/media/trybetunes.gif": "/static/media/trybetunes.1a930209f14b725611be.gif",
     "static/media/shoppingCart.gif": "/static/media/shoppingCart.42902d997e80f603c0ef.gif",
     "static/media/perfil.jpg": "/static/media/perfil.e826de065fe3b1f3d988.jpg",
     "static/media/react-icons-logo.svg": "/static/media/react-icons-logo.f7c596d8e2920225e3cd3d847dcc6719.svg",
@@ -14,10 +14,10 @@
     "index.html": "/index.html",
     "static/media/html-5-logo.svg": "/static/media/html-5-logo.ff1578fbb22000614a81a63cfcfa60cc.svg",
     "main.7a32ba14.css.map": "/static/css/main.7a32ba14.css.map",
-    "main.2e043e8c.js.map": "/static/js/main.2e043e8c.js.map"
+    "main.1d1fe2f5.js.map": "/static/js/main.1d1fe2f5.js.map"
   },
   "entrypoints": [
     "static/css/main.7a32ba14.css",
-    "static/js/main.2e043e8c.js"
+    "static/js/main.1d1fe2f5.js"
   ]
 }
